@@ -68,8 +68,8 @@
       outline: none;
       background: linear-gradient(
           90deg,
-          rgba(93, 12, 255, 1) 0%,
-          rgba(155, 0, 250, 1) 100% 
+          rgb(102, 26, 255) 0%,
+          rgb(190, 136, 223) 100% 
           );
           color: #fff;
           text-transform: capitalize;
@@ -77,11 +77,12 @@
   
   .todo-button:hover {
       /* color: black; */
-      background: linear-gradient(
-          90deg,
-          rgb(253, 232, 45) 0%,
-          rgba(43, 235, 129) 100% 
-          );
+          background: linear-gradient(
+            90deg,
+            rgb(128, 130, 255) 0%,
+            rgb(253, 58, 211) 100% 
+            );
+            color: black;
      
   }
   
@@ -197,7 +198,7 @@
       font-size: 11px;
       margin-top: 5px;
       line-height: 2px;
-      opacity: 0.5; 
+      opacity: 0.3; 
       padding-top: 10px;
       padding-right: 5px;
   } 
@@ -251,11 +252,11 @@
      
   }
   .todo-input{
-      padding: 14px 20px 14px 9px;
+      padding: 14px 15px 14px 10px;
       border-radius: 4px 0 0 4px;
       border: 2px solid #5d0cff;
       outline: none;
-      width: 150px;
+      width: 210px;
       background: transparent;
       color: #e2e2e2;
   }

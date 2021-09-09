@@ -204,16 +204,16 @@
       
   
    
-   @media (max-width: 768px) {
+   @media (max-width: 600px) {
   .todo-app {
       /* display: flex; */
       /* flex-direction: column; */
       /* justify-content: start; */
-      width: 330px;
-      min-height: 600px;
+      width: 350px;
+      min-height: 630px;
       background: black;
       text-align: center;
-      margin: 20px auto;
+      margin: 6px auto;
       border-radius: 10px;
       padding-bottom: 20px;
       
@@ -222,7 +222,7 @@
   h1{
       margin: 32px 0;
       color: #fff;
-      font-size: 1.3rem;
+      font-size: 25px;
       
   }
   .todo-button{
@@ -233,8 +233,8 @@
       outline: none;
       background: linear-gradient(
           90deg,
-          rgba(93, 12, 255, 1) 0%,
-          rgba(155, 0, 250, 1) 100% 
+          rgb(102, 26, 255) 0%,
+          rgb(190, 136, 223) 100% 
           );
           color: #fff;
           text-transform: capitalize;
@@ -244,9 +244,10 @@
       /* color: black; */
       background: linear-gradient(
           90deg,
-          rgb(253, 232, 45) 0%,
-          rgba(43, 235, 129) 100% 
+          rgb(128, 130, 255) 0%,
+          rgb(253, 58, 211) 100% 
           );
+          color: black;
      
   }
   .todo-input{

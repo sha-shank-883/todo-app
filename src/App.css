@@ -10,17 +10,8 @@
           90deg,
           rgba(48, 16, 255, 1) 0%,
           rgba(100, 115, 255, 1) 100%  );
-          /* background: #161a2b; */
-          
-  
   }
   
-  
-  /* 
-  .bgimg1{
-  background-size: cover;
-  height: auto;
-  } */
   
   .todo-app {
       display: flex;
@@ -207,9 +198,6 @@
    
    @media (max-width: 600px) {
   .todo-app {
-      /* display: flex; */
-      /* flex-direction: column; */
-      /* justify-content: start; */
       width: 350px;
       min-height: 630px;
       background: black;
